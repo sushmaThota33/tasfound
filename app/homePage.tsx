@@ -11,7 +11,7 @@ export function HomePage() {
                 <div className="w-[50%]">
                     <Image
                         className="dark:invert"
-                        src="/hands.jpg"
+                        src="/tasfound/hands.jpg"
                         alt="Next.js logo"
                         width={600}
                         height={200}
@@ -25,7 +25,7 @@ export function HomePage() {
                     <div className="my-3">
                         <Image
                             className="dark:invert"
-                            src="/learning_support.webp"
+                            src="/tasfound/learning_support.webp"
                             alt="Next.js logo"
                             width={600}
                             height={200}
@@ -38,7 +38,7 @@ export function HomePage() {
                     <div className="my-3">
                         <Image
                             className="dark:invert"
-                            src="/women_emp.webp"
+                            src="/tasfound/women_emp.webp"
                             alt="Next.js logo"
                             width={600}
                             height={200}

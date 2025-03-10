@@ -18,7 +18,7 @@ export default function Home() {
           <div>
             <Image
               className="dark:invert"
-              src="/TASF_logo.webp"
+              src="/tasfound/TASF_logo.webp"
               alt="Next.js logo"
               width={200}
               height={200}
