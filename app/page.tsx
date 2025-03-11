@@ -7,9 +7,7 @@ import { HomePage } from "./homePage";
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState<number>(1)
-
-
-
+  const basePath = process.env.NODE_ENV === "production" ? "/tasfound" : ""; 
 
   return (
     <div className="my-5 ">
@@ -18,7 +16,7 @@ export default function Home() {
           <div>
             <Image
               className="dark:invert"
-              src="/tasfound/TASF_logo.webp"
+              src={`${basePath}/TASF_logo.webp`}
               alt="Next.js logo"
               width={200}
               height={200}

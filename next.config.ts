@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
   /* config options here */
   basePath: isProd ? '/tasfound' : '',
   assetPrefix: isProd ? '/tasfound/' : '',
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isProd ? "/tasfound" : ""
+  },
   trailingSlash: true,
 };
 
