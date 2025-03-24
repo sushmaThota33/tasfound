@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "tailwindcss -o output.css && next build",
-  "postinstall": "tailwindcss -o output.css",
+    "build": "npx tailwindcss -o output.css && next build",
+    "postinstall": "npx tailwindcss -o output.css",
     "start": "next start",
     "lint": "next lint"
   },
