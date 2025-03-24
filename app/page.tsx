@@ -7,7 +7,7 @@ import { HomePage } from "./homePage";
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState<number>(1)
-  const basePath = process.env.NODE_ENV === "production" ? "/tasfound" : ""; 
+  const basePath = process.env.NODE_ENV === "production" ? "" : ""; 
 
   return (
     <div className="my-5 ">

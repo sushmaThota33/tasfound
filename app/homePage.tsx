@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export function HomePage() {
-    const basePath = process.env.NODE_ENV === "production" ? "/tasfound" : "";
+    const basePath = process.env.NODE_ENV === "production" ? "" : "";
     return (
         <div className="mx-12 my-10">
             <div className="w-full flex justify-between">
