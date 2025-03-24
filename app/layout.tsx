@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css?vercel-fix"; // Cache-busting query
+import "./globals.css";
+import "../public/tailwind.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
