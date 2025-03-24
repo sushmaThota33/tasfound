@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export function HomePage() {
+    const basePath = process.env.NODE_ENV === "production" ? "/tasfound" : "";
     return (
         <div className="mx-12 my-10">
             <div className="w-full flex justify-between">
@@ -11,7 +12,7 @@ export function HomePage() {
                 <div className="w-[50%]">
                     <Image
                         className="dark:invert"
-                        src="/hands.jpg"
+                        src={`${basePath}/hands.jpg`}
                         alt="Next.js logo"
                         width={600}
                         height={200}
@@ -25,7 +26,7 @@ export function HomePage() {
                     <div className="my-3">
                         <Image
                             className="dark:invert"
-                            src="/learning_support.webp"
+                            src={`${basePath}/learning_support.webp`}
                             alt="Next.js logo"
                             width={600}
                             height={200}
@@ -38,7 +39,7 @@ export function HomePage() {
                     <div className="my-3">
                         <Image
                             className="dark:invert"
-                            src="/women_emp.webp"
+                            src={`${basePath}/women_emp.webp`}
                             alt="Next.js logo"
                             width={600}
                             height={200}
