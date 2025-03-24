@@ -10,6 +10,11 @@ const nextConfig: NextConfig = {
   env: {
     NEXT_PUBLIC_BASE_PATH: isProd ? "/tasfound" : ""
   },
+  images: {
+    unoptimized: true, // Disable image optimization for static export
+  },
+  output:'export',
+  distDir : "out",
   trailingSlash: true,
 };
 
