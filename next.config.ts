@@ -12,7 +12,6 @@ const nextConfig: NextConfig = {
   },
   images: {
     unoptimized: true, // Disable image optimization for static export
-    domains : ["tas-foundation.org"]
   },
   output:'export',
   distDir : "out",
